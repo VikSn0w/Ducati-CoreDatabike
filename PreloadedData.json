@@ -1,14 +1,18 @@
 [
   {
     "name": "Monster",
-    "logo": "M900_1993"
+    "logo": "M900_1993",
+    "logourl": "https://raw.githubusercontent.com/VikSn0w/Ducati-CoreDatabike/main/imgs/M900_1993_RED.png"
   },
   {
     "name": "Multistrada",
-    "logo": "MS100DS_2003"
+    "logo": "MS1000DS_2002_RED",
+    "logourl": "https://raw.githubusercontent.com/VikSn0w/Ducati-CoreDatabike/main/imgs/MS1000DS_2002_RED.png"
   },
   {
     "name": "999",
-    "logo": "999_2004"
+    "logo": "999_2004_RED",
+    "logourl": "https://raw.githubusercontent.com/VikSn0w/Ducati-CoreDatabike/main/imgs/999_2004_RED.png"
+
   }
 ]
