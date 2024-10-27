@@ -1,22 +1,35 @@
 [
   {
     "name": "Monster",
-    "logo": "M900_1993",
-    "logourl": "https://raw.githubusercontent.com/VikSn0w/Ducati-CoreDatabike/main/imgs/M900_1993_RED.png"
+    "logo": "M900_1993_RED",
+    "logourl": "https://raw.githubusercontent.com/VikSn0w/Ducati-CoreDatabike/main/imgs/M900_1993_RED.png",
+    "models": [
+        {
+            "name": "Monster 1200",
+            "introductionYear": 2014,
+            "deprecationYear": 2021,
+            "logo": "M1200_2014_RED",
+            "logourl": "https://raw.githubusercontent.com/VikSn0w/Ducati-CoreDatabike/main/imgs/M1200_2014_RED.png"
+        }
+    ]
   },
   {
     "name": "Multistrada",
     "logo": "MS1000DS_2002_RED",
-    "logourl": "https://raw.githubusercontent.com/VikSn0w/Ducati-CoreDatabike/main/imgs/MS1000DS_2002_RED.png"
+    "logourl": "https://raw.githubusercontent.com/VikSn0w/Ducati-CoreDatabike/main/imgs/MS1000DS_2002_RED.png",
+    "models":[]
   },
   {
     "name": "999",
     "logo": "999_2004_RED",
-    "logourl": "https://raw.githubusercontent.com/VikSn0w/Ducati-CoreDatabike/main/imgs/999_2004_RED.png"
+    "logourl": "https://raw.githubusercontent.com/VikSn0w/Ducati-CoreDatabike/main/imgs/999_2004_RED.png",
+    "models":[]
   },
   {
     "name": "Panigale V4R",
     "logo": "PANIGALE-V4R_2022_RED",
-    "logourl": "https://raw.githubusercontent.com/VikSn0w/Ducati-CoreDatabike/main/imgs/PANIGALE-V4R_2022_RED.png"
+    "logourl": "https://raw.githubusercontent.com/VikSn0w/Ducati-CoreDatabike/main/imgs/PANIGALE-V4R_2022_RED.png",
+    "models":[]
   }
 ]
+
