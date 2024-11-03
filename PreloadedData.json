@@ -9,7 +9,16 @@
             "introductionYear": 2014,
             "deprecationYear": 2021,
             "logo": "M1200_2014_RED",
-            "logourl": "https://raw.githubusercontent.com/VikSn0w/Ducati-CoreDatabike/main/imgs/M1200_2014_RED.png"
+            "logourl": "https://raw.githubusercontent.com/VikSn0w/Ducati-CoreDatabike/main/imgs/M1200_2014_RED.png",
+            "variants":[]
+        },
+      {
+            "name": "Monster 900",
+            "introductionYear": 1993,
+            "deprecationYear": 2002,
+            "logo": "M900_1993_RED",
+            "logourl": "https://raw.githubusercontent.com/VikSn0w/Ducati-CoreDatabike/main/imgs/M900_1993_RED.png",
+             "variants":[]
         }
     ]
   },
