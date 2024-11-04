@@ -18,7 +18,22 @@
             "deprecationYear": 2002,
             "logo": "M900_1993_RED",
             "logourl": "https://raw.githubusercontent.com/VikSn0w/Ducati-CoreDatabike/main/imgs/M900_1993_RED.png",
-             "variants":[]
+             "variants":[{
+                "name": "M900",
+                "introductionYear": 1997,
+                "deprecationYear": 1998,
+                "logo": "M900_1997_RED",
+                "logourl": "https://raw.githubusercontent.com/VikSn0w/Ducati-CoreDatabike/main/imgs/M900_1997_RED.png",
+                "power": 53.7,
+                "engine": "L-Twin Engine 90° Degrees, Desmodue",
+                "displacement": 904,
+                "cooling_system": "Air-Cooled",
+                "induction": "Carbutator",
+                "clutch": "Dry",
+                "fuel_capacity": 16,
+                "top_speed": 190,
+                "dry_weight": 184
+              }]
         }
     ]
   },
