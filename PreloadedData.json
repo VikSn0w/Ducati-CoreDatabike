@@ -12,7 +12,7 @@
             "logourl": "https://raw.githubusercontent.com/VikSn0w/Ducati-CoreDatabike/main/imgs/M1200_2014_RED.png",
             "variants":[]
         },
-      {
+        {
             "name": "Monster 900",
             "introductionYear": 1993,
             "deprecationYear": 2002,
@@ -33,7 +33,23 @@
                 "fuel_capacity": 16,
                 "top_speed": 190,
                 "dry_weight": 184
-              }]
+              },{
+                "name": "Monster 900",
+                "introductionYear": 1993,
+                "deprecationYear": 1997,
+                "logo": "M900_1993_RED",
+                "logourl": "https://raw.githubusercontent.com/VikSn0w/Ducati-CoreDatabike/main/imgs/M900_1993_RED.png",
+                "power": 53.7,
+                "engine": "L-Twin Engine 90° Degrees, Desmodue",
+                "displacement": 904,
+                "cooling_system": "Air-Cooled",
+                "induction": "Carbutator",
+                "clutch": "Dry",
+                "fuel_capacity": 16,
+                "top_speed": 190,
+                "dry_weight": 184
+              }
+             ]
         }
     ]
   },
