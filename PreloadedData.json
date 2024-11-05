@@ -20,21 +20,6 @@
             "logourl": "https://raw.githubusercontent.com/VikSn0w/Ducati-CoreDatabike/main/imgs/M900_1993_RED.png",
              "variants":[{
                 "name": "Monster 900",
-                "introductionYear": 1997,
-                "deprecationYear": 1998,
-                "logo": "M900_1997_RED",
-                "logourl": "https://raw.githubusercontent.com/VikSn0w/Ducati-CoreDatabike/main/imgs/M900_1997_RED.png",
-                "power": 53.7,
-                "engine": "L-Twin Engine 90° Degrees, Desmodue",
-                "displacement": 904,
-                "cooling_system": "Air-Cooled",
-                "induction": "Carbutator",
-                "clutch": "Dry",
-                "fuel_capacity": 16,
-                "top_speed": 190,
-                "dry_weight": 184
-              },{
-                "name": "Monster 900",
                 "introductionYear": 1993,
                 "deprecationYear": 1996,
                 "logo": "M900_1993_RED",
@@ -48,6 +33,36 @@
                 "fuel_capacity": 16,
                 "top_speed": 190,
                 "dry_weight": 184
+              },{
+                "name": "Monster 900",
+                "introductionYear": 1997,
+                "deprecationYear": 1998,
+                "logo": "M900_1997_RED",
+                "logourl": "https://raw.githubusercontent.com/VikSn0w/Ducati-CoreDatabike/main/imgs/M900_1997_RED.png",
+                "power": 48.5,
+                "engine": "L-Twin Engine 90° Degrees, Desmodue",
+                "displacement": 904,
+                "cooling_system": "Air-Cooled",
+                "induction": "Carbutator",
+                "clutch": "Dry",
+                "fuel_capacity": 16,
+                "top_speed": 190,
+                "dry_weight": 185
+              },{
+                "name": "Monster 900 City",
+                "introductionYear": 1998,
+                "deprecationYear": 2002,
+                "logo": "M900CITY_1998_SILVER",
+                "logourl": "https://raw.githubusercontent.com/VikSn0w/Ducati-CoreDatabike/main/imgs/M900CITY_1998_SILVER.png",
+                "power": 53.3,
+                "engine": "L-Twin Engine 90° Degrees, Desmodue",
+                "displacement": 900,
+                "cooling_system": "Air-Cooled",
+                "induction": "Carbutator",
+                "clutch": "Dry",
+                "fuel_capacity": 16,
+                "top_speed": 190,
+                "dry_weight": 185
               }
              ]
         }
