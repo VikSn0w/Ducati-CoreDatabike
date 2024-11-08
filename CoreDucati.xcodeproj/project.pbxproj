@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		5BB5C83E2CDE83EE00F81984 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BB5C8202CDE83EC00F81984 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BB5C8272CDE83EC00F81984;
+			remoteInfo = CoreDucati;
+		};
+		5BB5C8482CDE83EE00F81984 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BB5C8202CDE83EC00F81984 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BB5C8272CDE83EC00F81984;
+			remoteInfo = CoreDucati;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5BB5C8282CDE83EC00F81984 /* CoreDucati.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDucati.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BB5C83D2CDE83EE00F81984 /* CoreDucatiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDucatiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BB5C8472CDE83EE00F81984 /* CoreDucatiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDucatiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		5B1FC2F42CDE895D0075C960 /* Exceptions for "CoreDucati" folder in "CoreDucati" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 5BB5C8272CDE83EC00F81984 /* CoreDucati */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		5BB5C82A2CDE83EC00F81984 /* CoreDucati */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				5B1FC2F42CDE895D0075C960 /* Exceptions for "CoreDucati" folder in "CoreDucati" target */,
+			);
+			path = CoreDucati;
+			sourceTree = "<group>";
+		};
+		5BB5C8402CDE83EE00F81984 /* CoreDucatiTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CoreDucatiTests;
+			sourceTree = "<group>";
+		};
+		5BB5C84A2CDE83EE00F81984 /* CoreDucatiUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CoreDucatiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BB5C8252CDE83EC00F81984 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BB5C83A2CDE83EE00F81984 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BB5C8442CDE83EE00F81984 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BB5C81F2CDE83EC00F81984 = {
+			isa = PBXGroup;
+			children = (
+				5BB5C82A2CDE83EC00F81984 /* CoreDucati */,
+				5BB5C8402CDE83EE00F81984 /* CoreDucatiTests */,
+				5BB5C84A2CDE83EE00F81984 /* CoreDucatiUITests */,
+				5BB5C8292CDE83EC00F81984 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5BB5C8292CDE83EC00F81984 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BB5C8282CDE83EC00F81984 /* CoreDucati.app */,
+				5BB5C83D2CDE83EE00F81984 /* CoreDucatiTests.xctest */,
+				5BB5C8472CDE83EE00F81984 /* CoreDucatiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BB5C8272CDE83EC00F81984 /* CoreDucati */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BB5C8512CDE83EE00F81984 /* Build configuration list for PBXNativeTarget "CoreDucati" */;
+			buildPhases = (
+				5BB5C8242CDE83EC00F81984 /* Sources */,
+				5BB5C8252CDE83EC00F81984 /* Frameworks */,
+				5BB5C8262CDE83EC00F81984 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				5BB5C82A2CDE83EC00F81984 /* CoreDucati */,
+			);
+			name = CoreDucati;
+			packageProductDependencies = (
+			);
+			productName = CoreDucati;
+			productReference = 5BB5C8282CDE83EC00F81984 /* CoreDucati.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5BB5C83C2CDE83EE00F81984 /* CoreDucatiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BB5C8542CDE83EE00F81984 /* Build configuration list for PBXNativeTarget "CoreDucatiTests" */;
+			buildPhases = (
+				5BB5C8392CDE83EE00F81984 /* Sources */,
+				5BB5C83A2CDE83EE00F81984 /* Frameworks */,
+				5BB5C83B2CDE83EE00F81984 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BB5C83F2CDE83EE00F81984 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5BB5C8402CDE83EE00F81984 /* CoreDucatiTests */,
+			);
+			name = CoreDucatiTests;
+			packageProductDependencies = (
+			);
+			productName = CoreDucatiTests;
+			productReference = 5BB5C83D2CDE83EE00F81984 /* CoreDucatiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5BB5C8462CDE83EE00F81984 /* CoreDucatiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BB5C8572CDE83EE00F81984 /* Build configuration list for PBXNativeTarget "CoreDucatiUITests" */;
+			buildPhases = (
+				5BB5C8432CDE83EE00F81984 /* Sources */,
+				5BB5C8442CDE83EE00F81984 /* Frameworks */,
+				5BB5C8452CDE83EE00F81984 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BB5C8492CDE83EE00F81984 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5BB5C84A2CDE83EE00F81984 /* CoreDucatiUITests */,
+			);
+			name = CoreDucatiUITests;
+			packageProductDependencies = (
+			);
+			productName = CoreDucatiUITests;
+			productReference = 5BB5C8472CDE83EE00F81984 /* CoreDucatiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BB5C8202CDE83EC00F81984 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					5BB5C8272CDE83EC00F81984 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					5BB5C83C2CDE83EE00F81984 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 5BB5C8272CDE83EC00F81984;
+					};
+					5BB5C8462CDE83EE00F81984 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 5BB5C8272CDE83EC00F81984;
+					};
+				};
+			};
+			buildConfigurationList = 5BB5C8232CDE83EC00F81984 /* Build configuration list for PBXProject "CoreDucati" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5BB5C81F2CDE83EC00F81984;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5BB5C8292CDE83EC00F81984 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BB5C8272CDE83EC00F81984 /* CoreDucati */,
+				5BB5C83C2CDE83EE00F81984 /* CoreDucatiTests */,
+				5BB5C8462CDE83EE00F81984 /* CoreDucatiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BB5C8262CDE83EC00F81984 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BB5C83B2CDE83EE00F81984 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BB5C8452CDE83EE00F81984 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BB5C8242CDE83EC00F81984 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BB5C8392CDE83EE00F81984 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BB5C8432CDE83EE00F81984 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5BB5C83F2CDE83EE00F81984 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BB5C8272CDE83EC00F81984 /* CoreDucati */;
+			targetProxy = 5BB5C83E2CDE83EE00F81984 /* PBXContainerItemProxy */;
+		};
+		5BB5C8492CDE83EE00F81984 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BB5C8272CDE83EC00F81984 /* CoreDucati */;
+			targetProxy = 5BB5C8482CDE83EE00F81984 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5BB5C84F2CDE83EE00F81984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5BB5C8502CDE83EE00F81984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BB5C8522CDE83EE00F81984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CoreDucati/Preview Content\"";
+				DEVELOPMENT_TEAM = YWUZ5CD858;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CoreDucati/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vik.gts.CoreDucati;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5BB5C8532CDE83EE00F81984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CoreDucati/Preview Content\"";
+				DEVELOPMENT_TEAM = YWUZ5CD858;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CoreDucati/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vik.gts.CoreDucati;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5BB5C8552CDE83EE00F81984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YWUZ5CD858;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vik.gts.CoreDucatiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreDucati.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CoreDucati";
+			};
+			name = Debug;
+		};
+		5BB5C8562CDE83EE00F81984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YWUZ5CD858;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vik.gts.CoreDucatiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreDucati.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CoreDucati";
+			};
+			name = Release;
+		};
+		5BB5C8582CDE83EE00F81984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YWUZ5CD858;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vik.gts.CoreDucatiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CoreDucati;
+			};
+			name = Debug;
+		};
+		5BB5C8592CDE83EE00F81984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YWUZ5CD858;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vik.gts.CoreDucatiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CoreDucati;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BB5C8232CDE83EC00F81984 /* Build configuration list for PBXProject "CoreDucati" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BB5C84F2CDE83EE00F81984 /* Debug */,
+				5BB5C8502CDE83EE00F81984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BB5C8512CDE83EE00F81984 /* Build configuration list for PBXNativeTarget "CoreDucati" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BB5C8522CDE83EE00F81984 /* Debug */,
+				5BB5C8532CDE83EE00F81984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BB5C8542CDE83EE00F81984 /* Build configuration list for PBXNativeTarget "CoreDucatiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BB5C8552CDE83EE00F81984 /* Debug */,
+				5BB5C8562CDE83EE00F81984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BB5C8572CDE83EE00F81984 /* Build configuration list for PBXNativeTarget "CoreDucatiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BB5C8582CDE83EE00F81984 /* Debug */,
+				5BB5C8592CDE83EE00F81984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BB5C8202CDE83EC00F81984 /* Project object */;
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="23507" systemVersion="24B83" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="Family" representedClassName="Family" syncable="YES" codeGenerationType="class">
+        <attribute name="logo" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="models" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Model" inverseName="family" inverseEntity="Model"/>
+    </entity>
+    <entity name="Model" representedClassName="Model" syncable="YES" codeGenerationType="class">
+        <attribute name="deprecationYear" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="introductionYear" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="logo" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="family" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Family" inverseName="models" inverseEntity="Family"/>
+        <relationship name="variant" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Variant" inverseName="model" inverseEntity="Variant"/>
+    </entity>
+    <entity name="Variant" representedClassName="Variant" syncable="YES" codeGenerationType="class">
+        <attribute name="clutch" optional="YES" attributeType="String"/>
+        <attribute name="cooling_system" optional="YES" attributeType="String"/>
+        <attribute name="deprecationYear" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="displacement" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="dry_weight" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="engine" optional="YES" attributeType="String"/>
+        <attribute name="fuel_capacity" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="induction" optional="YES" attributeType="String"/>
+        <attribute name="introductionYear" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="logo" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="power" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="top_speed" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <relationship name="model" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Model" inverseName="variant" inverseEntity="Model"/>
+    </entity>
+</model>
