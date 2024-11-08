@@ -47,12 +47,12 @@ struct ModelDetailView: View {
                     VStack(alignment: .leading, spacing: 8) {
                         HStack{
                             Text("DUCATI")
-                                .font(Font.custom("UniversLT-ExtraBlackObl", size: 32, relativeTo: .title))
+                                .font(Font.custom("UniversLT-ExtraBlackObl", size: 28, relativeTo: .title))
                                 .fontWeight(.bold)
                                 .foregroundColor(.primary)
                             
                             Text(model.name ?? "Unnamed Model")
-                                .font(Font.custom("Univers-LightOblique", size: 32, relativeTo: .title))
+                                .font(Font.custom("Univers-LightOblique", size: 24, relativeTo: .title))
                                 .fontWeight(.bold)
                                 .foregroundColor(.primary)
                         }
@@ -110,12 +110,12 @@ struct ModelDetailView: View {
                                 VStack(alignment: .leading, spacing: 8) {
                                     HStack{
                                         Text("DUCATI")
-                                            .font(Font.custom("UniversLT-ExtraBlackObl", size: 32, relativeTo: .title))
+                                            .font(Font.custom("UniversLT-ExtraBlackObl", size: 28, relativeTo: .title))
                                             .fontWeight(.bold)
                                             .foregroundColor(.primary)
                                         
                                         Text(variant.name ?? "Unnamed Model")
-                                            .font(Font.custom("Univers-LightOblique", size: 28, relativeTo: .title))
+                                            .font(Font.custom("Univers-LightOblique", size: 24, relativeTo: .title))
                                             .fontWeight(.bold)
                                             .foregroundColor(.primary)
                                     }
